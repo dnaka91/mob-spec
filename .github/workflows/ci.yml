@@ -8,6 +8,6 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v3
       - name: Run markdownlint-cli
-        uses: nosborn/github-action-markdown-cli@v3.0.1
+        uses: nosborn/github-action-markdown-cli@v3.1.0
         with:
           files: .
